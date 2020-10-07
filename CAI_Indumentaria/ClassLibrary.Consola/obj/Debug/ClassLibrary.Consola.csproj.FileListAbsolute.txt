@@ -1,0 +1,6 @@
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ClassLibrary.Consola\bin\Debug\ClassLibrary.Consola.dll
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ClassLibrary.Consola\bin\Debug\ClassLibrary.Consola.pdb
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ClassLibrary.Consola\obj\Debug\ClassLibrary.Consola.csprojAssemblyReference.cache
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ClassLibrary.Consola\obj\Debug\ClassLibrary.Consola.csproj.CoreCompileInputs.cache
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ClassLibrary.Consola\obj\Debug\ClassLibrary.Consola.dll
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ClassLibrary.Consola\obj\Debug\ClassLibrary.Consola.pdb

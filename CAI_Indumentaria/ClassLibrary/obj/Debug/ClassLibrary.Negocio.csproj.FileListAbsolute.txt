@@ -1,0 +1,6 @@
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ClassLibrary\obj\Debug\ClassLibrary.Negocio.csprojAssemblyReference.cache
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ClassLibrary\obj\Debug\ClassLibrary.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ClassLibrary\obj\Debug\ClassLibrary.pdb

@@ -1,0 +1,12 @@
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ProyectoConsola\bin\Debug\ProyectoConsola.exe.config
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ProyectoConsola\bin\Debug\ProyectoConsola.exe
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ProyectoConsola\bin\Debug\ProyectoConsola.pdb
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ProyectoConsola\bin\Debug\ClassLibrary.Consola.dll
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ProyectoConsola\bin\Debug\ClassLibrary.dll
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ProyectoConsola\bin\Debug\ClassLibrary.Consola.pdb
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ProyectoConsola\bin\Debug\ClassLibrary.pdb
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ProyectoConsola\obj\Debug\ProyectoConsola.csprojAssemblyReference.cache
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ProyectoConsola\obj\Debug\ProyectoConsola.csproj.CoreCompileInputs.cache
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ProyectoConsola\obj\Debug\ProyectoConsola.csproj.CopyComplete
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ProyectoConsola\obj\Debug\ProyectoConsola.exe
+C:\Users\MNARDELLI\Documents\GitHub\CAI_Indumentaria\CAI_Indumentaria\ProyectoConsola\obj\Debug\ProyectoConsola.pdb
