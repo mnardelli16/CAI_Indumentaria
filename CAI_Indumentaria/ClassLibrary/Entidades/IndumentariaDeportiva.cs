@@ -8,6 +8,9 @@ namespace ClassLibrary.Entidades
 {
     public class IndumentariaDeportiva:TipoIndumentaria
     {
+        public IndumentariaDeportiva(int origen) : base(origen)
+        {
 
+        }
     }
 }

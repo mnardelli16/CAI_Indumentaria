@@ -53,6 +53,7 @@
     <Compile Include="Entidades\TiendaRopa.cs" />
     <Compile Include="Entidades\TipoIndumentaria.cs" />
     <Compile Include="Entidades\VentaItem.cs" />
+    <Compile Include="Exceptions\ListaVaciaIndumentariaException.cs" />
     <Compile Include="Exceptions\SinStockException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

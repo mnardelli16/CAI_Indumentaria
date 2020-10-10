@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Headers;
+using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -45,7 +46,7 @@ namespace ClassLibrary.Entidades
 
         }
 
-        public Indumentaria(int codigo, int stock, string talle, double precio, TipoIndumentaria tipo)
+        public Indumentaria(int codigo, string talle, double precio, TipoIndumentaria tipo)
         {
             this._codigo = codigo;
             this._stock = 3;
@@ -62,7 +63,19 @@ namespace ClassLibrary.Entidades
         public virtual string GetDetalle()
         {
             return string.Format("Tipo Indumentaria: ", this._tipo.Origen);
+        }
 
+        public override bool Equals(object obj)
+        {
+            if(obj is null)
+            {
+                return false;
+            }   
+            else if(!(obj is Indumentaria))
+            {
+                return false;
+            }
+            return (this.Codigo == ((Indumentaria)obj).Codigo);
         }
     }
 }

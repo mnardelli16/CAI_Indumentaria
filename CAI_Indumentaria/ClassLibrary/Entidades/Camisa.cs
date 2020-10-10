@@ -22,15 +22,15 @@ namespace ClassLibrary.Entidades
             set { this._tipoManga = value; }
         }
 
-        public Camisa(int codigo, int stock, string talle, double precio, TipoIndumentaria tipo, string tipomanga, bool tieneestampado) : base(codigo, stock, talle, precio, tipo)
+        public Camisa(int codigo,string talle, double precio, TipoIndumentaria tipo) : base(codigo,talle, precio, tipo)
         {
-            this._tipoManga = tipomanga;
-            this._tieneEstampado = tieneestampado;
+            this._tipoManga = "CORTA";
+            this._tieneEstampado = false;
         }
 
         public override string GetDetalle()
         {
-            return string.Format("Codigo: {0} - Tipo de Indumentaria: {1} - Estampado: {2} - Tipo de manga: {3}",this._codigo,this.Tipo.Origen,this._tieneEstampado,this._tipoManga);
+            return string.Format("Codigo: {0} - Modelo: CAMISA - Tipo de Indumentaria: {1} - Estampado: {2} - Tipo de manga: {3}", this._codigo,this.Tipo.Origen,this._tieneEstampado,this._tipoManga);
         }
     }
 }
