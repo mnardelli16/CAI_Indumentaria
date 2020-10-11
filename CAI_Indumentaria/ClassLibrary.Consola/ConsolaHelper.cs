@@ -54,5 +54,38 @@ namespace ClassLibrary.Consola
             Console.Write("Ingrese el codigo de indumentaria a eliminar: ");
             return Console.ReadLine();
         }
+        public static string PedirCodigoAModificar()
+        {
+            Console.Write("Ingrese el codigo de indumentaria a modificar: ");
+            return Console.ReadLine();
+        }
+
+        public static string PedirTalleAModificar()
+        {
+            Console.Write("Ingrese el talle a modificar o 9 para saltear este paso: ");
+            return Console.ReadLine();
+        }
+
+        public static string PedirPrecioAModificar()
+        {
+            Console.Write("Ingrese el precio a modificar o 'S' para saltear este paso: ");
+            return Console.ReadLine();
+        }
+
+        public static string PedirCodigoAIngresarpedido()
+        {
+            Console.Write("Ingrese el codigo de indumentaria a vender: ");
+            return Console.ReadLine();
+        }
+        public static string PedirCantidad()
+        {
+            Console.Write("Ingrese la cantidad: ");
+            return Console.ReadLine();
+        }
+        public static string PedirOrden()
+        {
+            Console.Write("Ingrese el numero de orden a devolver: ");
+            return Console.ReadLine();
+        }
     }
 }

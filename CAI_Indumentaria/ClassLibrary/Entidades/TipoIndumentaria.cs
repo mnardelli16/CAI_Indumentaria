@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary.Entidades
 {
-    public class TipoIndumentaria
+    public abstract class TipoIndumentaria
     {
         private string _origen;
         private double _porcentajeAlgodon;

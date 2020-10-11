@@ -30,7 +30,7 @@ namespace ClassLibrary.Entidades
 
         public override string GetDetalle()
         {
-            return string.Format("Codigo: {0} - Modelo: CAMISA - Tipo de Indumentaria: {1} - Estampado: {2} - Tipo de manga: {3}", this._codigo,this.Tipo.Origen,this._tieneEstampado,this._tipoManga);
+            return string.Format("Codigo: {0} - Modelo: CAMISA - Tipo de Indumentaria: {1} - Estampado: {2} - Tipo de manga: {3} \nPrecio: {4} - Talle: {5} - Stock: {6}", this._codigo,this.Tipo.Origen,this._tieneEstampado,this._tipoManga,this._precio, this._talle, this._stock);
         }
     }
 }

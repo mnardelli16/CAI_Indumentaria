@@ -115,5 +115,72 @@ namespace ClassLibrary.Consola
             }
             return flag;
         }
+
+        public static bool ValidarPrecioAModificar(string a, ref double salida)
+        {
+            bool flag = false;
+            if(a == "S")
+            {
+                flag = true;
+            }
+            else
+            {
+                if (!double.TryParse(a, out salida))
+                {
+                    ConsolaHelper.MostrarMensaje("Debe ingresar un numero");
+                }
+                else if (salida <= 0)
+                {
+                    ConsolaHelper.MostrarMensaje("El precio debe ser mayor a 0");
+                }
+                else
+                {
+                    flag = true;
+                }
+            }
+
+            return flag;
+        }
+
+        public static bool ValidarSalida(string a)
+        {
+            bool flag = false;
+            if (string.IsNullOrWhiteSpace(a))
+            {
+                ConsolaHelper.MostrarMensaje("No debe dejar espacios en blanco");
+            }
+            else if (a == "S")
+            {
+                flag = true;
+            }
+            else if (a == "N")
+            {
+                flag = true;
+            }
+            else
+            {
+                ConsolaHelper.MostrarMensaje("No son opciones validas");
+            }
+            return flag;
+        }
+
+        public static bool ValidarCliente(string a, ref int salida)
+        {
+            bool flag = false;
+
+            if (!Int32.TryParse(a, out salida))
+            {
+                ConsolaHelper.MostrarMensaje("No es una opcion valida");
+            }
+            else if (salida < 0)
+            {
+                ConsolaHelper.MostrarMensaje("No es una opcion valida");
+            }
+            else
+            {
+                flag = true;
+            }
+            return flag;
+        }
     }
 }

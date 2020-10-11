@@ -60,10 +60,7 @@ namespace ClassLibrary.Entidades
             return GetDetalle(); 
         }
 
-        public virtual string GetDetalle()
-        {
-            return string.Format("Tipo Indumentaria: ", this._tipo.Origen);
-        }
+        public abstract string GetDetalle(); // NO TIENE IMPLEMENTACION ES ABSTRACTO
 
         public override bool Equals(object obj)
         {
@@ -76,6 +73,11 @@ namespace ClassLibrary.Entidades
                 return false;
             }
             return (this.Codigo == ((Indumentaria)obj).Codigo);
+        }
+
+        public void QuitarStock(Indumentaria I, int cantidad)
+        {
+            I._stock = I._stock - cantidad;
         }
     }
 }

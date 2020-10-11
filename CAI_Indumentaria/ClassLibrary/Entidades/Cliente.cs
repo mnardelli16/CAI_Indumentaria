@@ -27,5 +27,17 @@ namespace ClassLibrary.Entidades
             get { return this._nombre; }
             set { this._nombre = value; }
         }
+
+        public Cliente(int codigo, string apelido, string nombre)
+        {
+            this._codigo = codigo;
+            this._apellido = apelido;
+            this._nombre = nombre;
+        }
+
+        public override string ToString()
+        {
+            return string.Format("Codigo: {0} - Apellido: {1} - Nombre {2}", this._codigo, this._apellido, this._nombre); 
+        }
     }
 }

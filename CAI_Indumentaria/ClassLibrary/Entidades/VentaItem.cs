@@ -21,5 +21,16 @@ namespace ClassLibrary.Entidades
             set { this._cantidad = value; }
         }
 
+        public VentaItem(Indumentaria prenda, int cantidad)
+        {
+            this._prenda = prenda;
+            this._cantidad = cantidad;
+        }
+
+        public double GetTotal()
+        {
+            return _prenda.Precio * _cantidad;
+        }
+
     }
 }
