@@ -75,9 +75,8 @@ namespace ClassLibrary.Entidades
             return (this.Codigo == ((Indumentaria)obj).Codigo);
         }
 
-        public void QuitarStock(Indumentaria I, int cantidad)
-        {
-            I._stock = I._stock - cantidad;
-        }
+
+
+
     }
 }

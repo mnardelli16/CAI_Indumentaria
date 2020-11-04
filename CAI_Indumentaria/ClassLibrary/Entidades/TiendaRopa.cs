@@ -101,6 +101,10 @@ namespace ClassLibrary.Entidades
             I.Precio = precio;
         }
 
+        public void QuitarStock(Indumentaria I, int cantidad)
+        {
+            I.Stock -= cantidad;
+        }
         public void IngresarOrden(Venta V)
         {
             _ventas.Add(V);

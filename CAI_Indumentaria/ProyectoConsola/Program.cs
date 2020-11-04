@@ -213,7 +213,7 @@ namespace ProyectoConsola
                     } while (!flag);
 
 
-                    Indumentaria A = T.BuscarIndumentaria(_codigo);
+                    Indumentaria A = T.BuscarIndumentaria(_codigo); // me puede devoler el objeto o un null si no lo encontro
                     T.QuitarIndumentaria(A);
                     ConsolaHelper.MostrarMensaje("Indumentaria eliminada con exito");
                 }
@@ -346,7 +346,7 @@ namespace ProyectoConsola
 
                             VentaItem Item = new VentaItem(I, _cant);
 
-                            I.QuitarStock(I, _cant); // quito el stock al objeto
+                            T.QuitarStock(I, _cant); // quito el stock al objeto
 
                             ListaItem.Add(Item);
 
@@ -461,14 +461,22 @@ namespace ProyectoConsola
                 } while (!flag);
 
                 Venta Ve = T.BuscarVenta(_orden);
-                
-                if(Ve is null)
+                Venta mod = null;
+                foreach(Venta V  in T.ListarOrdenes())
+                {
+                    if (V.Equals(Ve))
+                    {
+                        mod = Ve; 
+                    }
+                }
+
+                if(mod is null)
                 {
                     throw new Exception("Venta inexistente");
                 }
                 else
                 {
-                    T.DevolerOrden(Ve);
+                    T.DevolerOrden(mod);
                     ConsolaHelper.MostrarMensaje("Venta devuelta con exito");
                 }
 

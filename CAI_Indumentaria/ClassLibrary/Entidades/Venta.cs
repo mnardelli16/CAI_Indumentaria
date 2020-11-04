@@ -70,5 +70,18 @@ namespace ClassLibrary.Entidades
             return "Devuelta";
         }
 
+        public override bool Equals(object obj)
+        {
+            if(obj is null)
+            {
+                return false;
+            }   
+            else if(!(obj is Venta))
+            {
+                return false;
+            }
+            return (this.Codigo == ((Venta)obj).Codigo);
+        }
+
     }
 }
